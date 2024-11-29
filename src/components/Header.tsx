@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img
-              src="/src/components/icons/logo.png"
+              src="/public/images/logo.png"
               alt="SGTB Khalsa College"
               className="h-12 w-12"
             />

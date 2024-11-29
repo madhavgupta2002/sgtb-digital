@@ -7,7 +7,7 @@ export function CreditsPage() {
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
         <div className="text-center mb-8">
           <img
-            src="/src/components/icons/logo.png"
+            src="/public/images/logo.png"
             alt="SGTB Khalsa College"
             className="mx-auto h-24 w-24 mb-4"
           />
