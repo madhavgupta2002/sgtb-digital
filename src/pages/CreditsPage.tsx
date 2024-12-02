@@ -7,7 +7,7 @@ export function CreditsPage() {
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
         <div className="text-center mb-8">
           <img
-            src="/public/images/logo.png"
+            src="https://i.ibb.co/BZbDSY5/logo.png"
             alt="SGTB Khalsa College"
             className="mx-auto h-24 w-24 mb-4"
           />
@@ -25,20 +25,12 @@ export function CreditsPage() {
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {teamMembers.map(member => (
-              <div key={member.id} className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg flex items-center space-x-4">
-                <img
-                  src={member.imageUrl}
-                  alt={member.name}
-                  className="w-16 h-16 rounded-full object-cover"
-                />
+              <div key={member.id} className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg text-center">
                 <div>
                   <h3 className="font-medium text-gray-900 dark:text-white mb-1">
                     {member.name}
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">{member.rollNo}</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                    {member.role}
-                  </p>
                 </div>
               </div>
             ))}
@@ -50,9 +42,7 @@ export function CreditsPage() {
             About the Project
           </h2>
           <p className="text-gray-700 dark:text-gray-300">
-            The Digital Assignment Repository is a web application developed as part of the Digital Empowerment VAC course.
-            It serves as a centralized platform for managing and accessing digital assignments, making it easier for
-            students and faculty to share and access educational content.
+            This website serves as a digital repository for the Digital Empowerment Value Added Course at Sri Guru Tegh Bahadur Khalsa College, University of Delhi. It provides a centralized platform for students to access course materials, assignments, and resources related to digital empowerment and technology skills development.
           </p>
         </div>
       </div>

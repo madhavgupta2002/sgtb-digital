@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img
-              src="/public/images/logo.png"
+              src="https://i.ibb.co/BZbDSY5/logo.png"
               alt="SGTB Khalsa College"
               className="h-12 w-12"
             />
@@ -30,9 +30,9 @@ export function Header() {
             <Link to="/" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
               Home
             </Link>
-            <Link to="/upload" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+            {/* <Link to="/upload" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
               Upload
-            </Link>
+            </Link> */}
             <Link to="/credits" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
               Credits
             </Link>
