@@ -15,7 +15,7 @@ export const assignments: Assignment[] = [
     id: '2',
     title: 'Poster Making',
     type: 'PDF',
-    driveLink: 'https://drive.google.com/file/d/12fNUryoyM9uU-5TLa4wQ4uibdoahAWLN/preview',
+    driveLink: 'https://drive.google.com/file/d/1EyFsirJCNrRhO0Mc9B9ZeNei2-vNRpDH/preview',
     description:
       'The image is a promotional advertisement by "The Pijja Co." for their Ragi Pizza Base.',
     createdAt: '2024-11-30',
