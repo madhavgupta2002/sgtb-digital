@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FileIcon, ImageIcon, VideoIcon } from './icons';
+import { FileIcon, ImageIcon, VideoIcon, YoutubeIcon } from 'lucide-react';
 import { Assignment } from '../types';
 
 const typeIcons = {
@@ -8,6 +8,7 @@ const typeIcons = {
   PPT: FileIcon,
   Image: ImageIcon,
   Video: VideoIcon,
+  YT: YoutubeIcon,
 };
 
 interface Props {

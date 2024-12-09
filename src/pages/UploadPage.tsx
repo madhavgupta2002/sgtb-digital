@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import { AssignmentType, FileType } from '../types';
 import { FileUpload } from '../components/FileUpload';
+import { isYouTubeUrl } from '../utils/linkUtils';
 
 export function UploadPage() {
   const navigate = useNavigate();
@@ -21,6 +22,11 @@ export function UploadPage() {
     if (!formData.title || !formData.driveLink) {
       toast.error('Please fill in all required fields');
       return;
+    }
+
+    // Auto-detect YouTube links and set type to YT
+    if (isYouTubeUrl(formData.driveLink)) {
+      setFormData(prev => ({ ...prev, type: 'YT' }));
     }
     
     // In a real app, this would upload files and make an API call
@@ -67,12 +73,13 @@ export function UploadPage() {
             <option value="PPT">PPT</option>
             <option value="Image">Image</option>
             <option value="Video">Video</option>
+            <option value="YT">YouTube</option>
           </select>
         </div>
 
         <div>
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-            Google Drive Link *
+            Link *
           </label>
           <input
             type="url"
@@ -80,7 +87,7 @@ export function UploadPage() {
             value={formData.driveLink}
             onChange={(e) => setFormData({ ...formData, driveLink: e.target.value })}
             className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-            placeholder="https://drive.google.com/file/d/..."
+            placeholder="https://drive.google.com/file/d/... or https://youtube.com/..."
           />
         </div>
 

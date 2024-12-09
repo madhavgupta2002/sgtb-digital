@@ -1,4 +1,4 @@
-export type AssignmentType = 'PPT' | 'PDF' | 'Image' | 'Video';
+export type AssignmentType = 'PPT' | 'PDF' | 'Image' | 'Video' | 'YT';
 
 export type FileType = 'pdf' | 'doc' | 'docx' | 'jpg' | 'png' | 'ppt' | 'pptx' | 'mp4';
 

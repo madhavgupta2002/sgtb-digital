@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import { assignments } from '../data/assignments';
 import { ResourceList } from '../components/ResourceList';
+import { isYouTubeUrl, getYouTubeEmbedUrl } from '../utils/linkUtils';
 
 export function AssignmentPage() {
   const { id } = useParams<{ id: string }>();
@@ -24,6 +25,10 @@ export function AssignmentPage() {
       </div>
     );
   }
+
+  const embedUrl = isYouTubeUrl(assignment.driveLink) 
+    ? getYouTubeEmbedUrl(assignment.driveLink)
+    : assignment.driveLink;
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -50,9 +55,10 @@ export function AssignmentPage() {
 
         <div className="mb-6">
           <iframe
-            src={assignment.driveLink}
+            src={embedUrl}
             className="w-full h-[600px] border-0 rounded-lg"
-            allow="autoplay"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
           />
         </div>
 
