@@ -21,13 +21,4 @@ export const assignments: Assignment[] = [
     createdAt: '2023-12-02',
     resources: [],
   },
-  {
-    id: '3',
-    title: 'How to Book a Bus Ticket Online',
-    type: 'mp4',
-    driveLink: 'https://youtube.com/shorts/1JBcy0AVZyA?si=qhR-GNHqGxL6gxdZ',
-    description: 'A short video tutorial on booking a bus ticket online.',
-    createdAt: '2023-12-09',
-    resources: [],
-  },
 ];
