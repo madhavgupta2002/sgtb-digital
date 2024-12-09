@@ -5,7 +5,7 @@ export const assignments: Assignment[] = [
     id: '1',
     title: 'Life Insurance',
     type: 'PPT',
-    driveLink: 'https://drive.google.com/file/d/1lGOrQXP9ohhAhtibb_nMOkaQOiIUJ8Ts/preview',
+    driveLink: 'https://drive.google.com/file/d/1jK2lfIFg-mG9V2oY2qt1c5VB5J3tqjIq/preview',
     description:
       'Presentation on how digitalization has changed the world of life insurance',
     createdAt: '2023-12-02',
