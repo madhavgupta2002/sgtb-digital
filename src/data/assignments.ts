@@ -63,7 +63,7 @@ export const assignments: Assignment[] = [
     id: '7',
     title: 'Cyber Safety',
     type: 'PDF',
-    driveLink: 'https://drive.google.com/file/d/1tPZJL7qn0CJg2oy1MzrfYDcUs-8W-jla/view',
+    driveLink: 'https://drive.google.com/file/d/13ckndlGAI9owU6uXDbhjx4b4AKEPxbp1/preview',
     description: 'Educational material on protecting personal information and staying safe online.',
     createdAt: '2024-12-13',
     resources: [],
