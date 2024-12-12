@@ -42,7 +42,7 @@ export function CreditsPage() {
             About the Project
           </h2>
           <p className="text-gray-700 dark:text-gray-300">
-            This website serves as a digital repository for the assignments of the Digital Empowerment Value Added Course at Sri Guru Tegh Bahadur Khalsa College, University of Delhi.
+            This website serves as a digital repository for the assignments of the Digital Empowerment Value Added Course at Sri Guru Tegh Bahadur Khalsa College, University of Delhi. Course instructor Prof. Harneet Kaur.
           </p>
         </div>
       </div>
