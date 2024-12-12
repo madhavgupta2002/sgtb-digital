@@ -32,13 +32,13 @@ export const assignments: Assignment[] = [
   },
   {
     id: '4',
-    title: 'New Assignment',
+    title: 'Project Report',
     type: 'PDF',
     driveLink: 'https://drive.google.com/file/d/1STBiHaXW5thS8uK1MkU_NpzwzBf7-Cm9/preview',
-    description: 'New assignment with additional resources',
+    description: 'Reprt on a survey conducted on digital literacy intertwined with e-commerce',
     createdAt: '2024-12-13',
     resources: [
-      'https://drive.google.com/file/d/1y6xKwVnfBWAGuxJSIc9pm5xWl3Kguyn-/preview',
+      'https://drive.google.com/uc?id=1y6xKwVnfBWAGuxJSIc9pm5xWl3Kguyn-&export=download',
     ],
   },
 ];
