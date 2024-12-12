@@ -29,5 +29,16 @@ export const assignments: Assignment[] = [
     description: 'Tutorial showing the step-by-step process of booking bus tickets online using DMRC Momentum 2.0 Application',
     createdAt: '2024-11-30',
     resources: [],
-  }
+  },
+  {
+    id: '4',
+    title: 'New Assignment',
+    type: 'PDF',
+    driveLink: 'https://drive.google.com/file/d/1STBiHaXW5thS8uK1MkU_NpzwzBf7-Cm9/preview',
+    description: 'New assignment with additional resources',
+    createdAt: '2024-12-13',
+    resources: [
+      'https://drive.google.com/file/d/1y6xKwVnfBWAGuxJSIc9pm5xWl3Kguyn-/preview',
+    ],
+  },
 ];
