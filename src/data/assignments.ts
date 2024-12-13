@@ -38,7 +38,15 @@ export const assignments: Assignment[] = [
     description: 'Report on a survey conducted on digital literacy intertwined with e-commerce',
     createdAt: '2024-12-13',
     resources: [
-      'https://drive.google.com/uc?id=1y6xKwVnfBWAGuxJSIc9pm5xWl3Kguyn-&export=download',
+      {
+        id: '1',
+        fileName: 'Digital Literacy Questionnaire',
+        fileType: 'PDF',
+        fileSize: 0,
+        fileUrl: 'https://drive.google.com/file/d/1y6xKwVnfBWAGuxJSIc9pm5xWl3Kguyn-/view',
+        uploadDate: '2024-12-13',
+        description: 'Digital Literacy Questionnaire',
+      },
     ],
   },
   {
