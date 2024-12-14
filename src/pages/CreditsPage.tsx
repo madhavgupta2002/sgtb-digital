@@ -12,7 +12,7 @@ export function CreditsPage() {
             className="mx-auto h-24 w-24 mb-4"
           />
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-            Digital Empowerment VAC
+            Digital Dynamos
           </h1>
           <p className="text-gray-600 dark:text-gray-400">
             S.G.T.B. Khalsa College, University of Delhi
